@@ -1,7 +1,7 @@
 cordova-plugin-statusbar
 ============================
- 
-Enable or disable Android 4.4's translucent statusbar.
+
+Set the Android 4.4's statusbar color.
 
 Plugin for Cordova >= 3.0
 
@@ -9,18 +9,13 @@ Plugin for Cordova >= 3.0
 
 For Cordova:
 
-	cordova plugin add git@github.com:ekuwang/cordova-plugin-statusbar.git
+        cordova plugin add git@github.com:dschoeni/cordova-plugin-statusbar.git
 
 #### Using the plugin
 
-To enable translucent statusbar:
+To set the statusbar color:
 
-	statusbarTransparent.enable();
-	
-To disable translucent statusbar:
+    statusbarColor.setColor(131, 19, 45);
 
-	statusbarTransparent.disable();
-	
-To toggle current state:
+Where three parameters are the RGB colors.
 
-	statusbarTransparent.toggle(); 
